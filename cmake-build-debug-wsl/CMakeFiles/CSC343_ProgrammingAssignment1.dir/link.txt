@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/CSC343_ProgrammingAssignment1.dir/main.cpp.o -o CSC343_ProgrammingAssignment1 
