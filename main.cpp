@@ -42,8 +42,8 @@ int main() {
         exit(0);
     }
     close(fd[1]);
-    cout << "\n               --- Memory Allocation Summary Repory ---";
-    cout << "\nProcess Id   Starting Memory Address   Size of the Process MB   Unused Space MB\n";
+    cout << setw(55) << right << "--- Memory Allocation Summary Repory ---\n";
+    cout << "Process Id   Starting Memory Address   Size of the Process MB   Unused Space MB\n";
 
     int startAddress = startAddr, data[3];
     while (read(fd[0], data, sizeof(data)) > 0) {
